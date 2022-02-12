@@ -96,7 +96,7 @@ const sr = ScrollReveal({
     reset: true,
 });
 
-sr.reveal(`.home__data, .home__img, 
+sr.reveal(`.home__data, .home__img, .team__head, .team-card,
            .decoration__data,
            .accessory__content,
            .footer__content`, {
