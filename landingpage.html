@@ -6,10 +6,12 @@
 
         <!--========== BOX ICONS ==========-->
         <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="icon" type="image/png" href="./images/Bag.png">
 
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="sponsor.css">
 
         <title>Devcation 2022: Home</title>
     </head>
@@ -26,10 +28,11 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Theme</a></li>
-                        <li class="nav__item"><a href="#learn_more" class="nav__link">Events</a></li>
-                        <li class="nav__item"><a href="#shop" class="nav__link">Timeline</a></li>
-                        <li class="nav__item"><a href="" class="nav__link">Sponsors</li>
+                        <li class="nav__item"><a href="#about" class="nav__link active-link">About</a></li>
+                        <li class="nav__item"><a href="#theme" class="nav__link ">Theme</a></li>
+                        <li class="nav__item"><a href="#events" class="nav__link">Events</a></li>
+                        <li class="nav__item"><a href="#timeline" class="nav__link">Timeline</a></li>
+                        <li class="nav__item"><a href="#sponsors" class="nav__link">Sponsors</li>
                         <li class="nav__item"><a href="#contact_us" class="nav__link">Contact Us</a></li>    
                         <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
                     </ul>
@@ -42,7 +45,7 @@
         </header>
 
         <main class="l-main">
-            <!--========== HOME ==========-->
+            <!--========== Welcome ==========-->
             <section class="home" id="home">
                 <div class="home__container bd-container bd-grid">
                     <div class="home__img">
@@ -50,80 +53,243 @@
                     </div>
 
                     <div class="home__data">
-                        <h1 class="home__title">This Basket Understands You &#128092;</h1>
+                        <h1 class="home__title">Welcome to Devcation'22&#127757;</h1>
                         <p class="home__description">Powered by ML algorithms, Negozio-AI gives you recommendations and urges you to buy thing you yourself didn't knew you'd need.</p>
-                        <!--This will redirect to the Login/Signup page-->
-                        <a href="#" class="button">Get Started</a>
+                        
                     </div>   
                 </div>
             </section>
 
-            <!--========== LEARN MORE ==========-->
-            <section class="share section bd-container" id="learn_more">
+            <!--========== About Devcation ==========-->
+            <section class="share section bd-container" id="about">
                 <div class="share__container bd-grid">
                     <div class="share__data">
-                        <h2 class="section-title-center">Wait, You Can <br> Tell What I Need? &#128561;</h2>
+                        <h2 class="section-title-center">About <br> Devcation 2022 &#127757; </h2>
                         <p class="share__description">We analyse your purchase history, what users just like you are ordering and the items in your cart after which we come up with the best recommendations for the products you may additionally need.</p>
-                        <a href="#" class="button">Learn More</a>
+                        
                     </div>
 
                     <div class="share__img">
-                        <img src="./img/awe.png" alt="">
+                        <img src="./img/world.png" alt="">
                     </div>
                 </div>
             </section>
 
-            <!--========== CATEGORIES ==========-->
-            <section class="decoration section bd-container" id="shop">
-                <h2 class="section-title">Find Everything You <br> Will Ever Need</h2>
-                <div class="decoration__container bd-grid">
-                    <div class="decoration__data">
-                        <img src="./img/apple_render.gif" alt="" class="decoration__img" id="apple_render">
-                        <h3 class="decoration__title">Fresh Fruits and Veggies</h3> 
-                        <a href="#" class="button button-link">Go Shopping</a>
+            <!-- ================ About GDSC IGDTUW ================= -->
+
+            <section class="share section bd-container" id="learn_more">
+                <div class="share__container bd-grid">
+                    <div class="share__data">
+                        <img src="./img/GDSC.png" alt="">
+                    </div>
+                    <div class="share__img about__GDSC">
+                        <h2 class="section-title-center">About <br> GDSC IGDTUW &#127757; </h2>
+                        <p class="share__description">GDSC IGDTUW is a non-profit developer group powered by Google Developers to learn, share, connect and develop skills.</p>
+                        
                     </div>
 
-                    <div class="decoration__data">
-                        <img src="./img/burger_render.gif" alt="" class="decoration__img" id="burger_render">
-                        <h3 class="decoration__title">Ready To Eat</h3>
-                        <a href="#" class="button button-link">Go Shopping</a>
+                    
+                </div>
+            </section>
+
+            <!-- =============Theme UN SDG============ -->
+
+            <section class="share section bd-container" id="about">
+                <div class="share__container bd-grid">
+                    <div class="share__data">
+                        <h2 class="section-title-center">Theme</h2>
+                        <p class="share__description">The Sustainable Development Goals or Global Goals are a collection of 17 interlinked global goals designed to be a "blueprint to achieve a better and more sustainable future for all". The SDGs were set up in 2015 by the United Nations General Assembly and are intended to be achieved by the year 2030.</p>
+                        
                     </div>
 
-                    <div class="decoration__data">
-                        <img src="./img/milk_render.gif" alt="" class="decoration__img" id="milk_render">
-                        <h3 class="decoration__title">Dairy Products</h3>
-                        <a href="#" class="button button-link">Go Shopping</a>
+                    <div class="share__img">
+                        <img src="./img/SDG.png" alt="">
                     </div>
                 </div>
             </section>
+
+
 
             
-            <!--========== REACH OUT TO DEVELOPERS ==========-->
-            <section class="send section" id="contact_us">
-                <div class="send__container bd-container bd-grid">
-                    <div class="send__content">
-                        <h2 class="section-title-center send__title">Found A Problem?</h2>
-                        <p class="send__description">Celestial Biscuit takes their laptops along even on a vacation. Feel free to reach out to us in case you are having any trouble in using our platform.</p>
-                        <form action="">
-                            <div class="send__direction">
-                                <input type="text" placeholder="Type Message" class="send__input">
-                                <a href="#" class="button">Send</a>
-                            </div>
-                        </form>
+
+            
+
+            <!--========== CATEGORIES ==========-->
+            <section class="decoration section bd-container" id="events">
+                <h2 class="section-title">Events</h2>
+                <div class="decoration__container bd-grid">
+                    <div class="decoration__data">
+                        <img src="./img/Design.png" alt="" class="decoration__img" id="apple_render">
+                        <h3 class="decoration__title">Design 'n' Solve</h3> 
+                        <a href="#" class="button button-link">Details</a>
                     </div>
 
-                    <div class="send__img">
-                        <img src="./img/aram.png" alt="">
+                    <div class="decoration__data">
+                        <img src="./img/Ideate.png" alt="" class="decoration__img" id="burger_render">
+                        <h3 class="decoration__title">Ideate 'n' Solve</h3>
+                        <a href="#" class="button button-link">Details</a>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="./img/Hack.png" alt="" class="decoration__img" id="milk_render">
+                        <h3 class="decoration__title">Hack 'n' Solve</h3>
+                        <a href="#" class="button button-link">Details</a>
                     </div>
                 </div>
+            </section>
+
+            <!-- =============Timeline============= -->
+
+                <div id="timeline"> 
+                    <section class="intro">
+                        <div class="container">
+                          <h1>Event Timeline </h1>
+                        </div>
+                      </section>
+                      
+                      <section class="timeline">
+                        <ul>
+                          <li>
+                            <div>
+                              <h1>1934</h1> <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+                            </div>
+                          </li>
+                          <li>
+                            <div>
+                              <h1>1937</h1> <p>Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.</p>
+                            </div>
+                          </li>
+                          <li>
+                            <div>
+                              <h1>1940</h1> <p>Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.</p>
+                            </div>
+                          </li>
+                          <li>
+                            <div>
+                              <h1>1943</h1> <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
+                            </div>
+                          </li>
+                          <li>
+                            <div>
+                              <h1>1946</h1> <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
+                            </div>
+                          </li>
+                          <li>
+                            <div>
+                              <h1>1956</h1> <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
+                            </div>
+                          </li>
+                          <li>
+                            <div>
+                              <h1>1957</h1> <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
+                            </div>
+                          </li>
+                          <li>
+                            <div>
+                              <h1>1967</h1> <p>Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget porta faucibus, euismod quis ante.</p>
+                            </div>
+                          </li>
+                          <li>
+                            <div>
+                              <h1>1977</h1> <p>Vestibulum porttitor lorem sed pharetra dignissim. Nulla maximus, dui a tristique iaculis, quam dolor convallis enim, non dignissim ligula ipsum a turpis.</p>
+                            </div>
+                          </li>
+                          <li>
+                            <div>
+                              <h1>1985</h1> <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
+                            </div>
+                          </li>
+                          <li>
+                            <div>
+                              <h1>2000</h1> <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
+                            </div>
+                          </li>
+                          <li>
+                            <div>
+                              <h1>2005</h1> <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
+                            </div>
+                          </li>
+                        </ul>
+                      </section>
+                </div>
+
+                <!-- ==========Speakers========== -->
+
+                <section class="share section bd-container" id="theme">
+                    <div class="share__container bd-grid">
+                        <div class="share__img">
+                            <img src="./img/Speaker.png" alt="">
+                        </div>
+                        <div class="share__data">
+                             <h2 class="section-title-center"> Meet our speakers </h2>
+
+                             <a href="" class="button">Here!</a>
+                            
+                            <!-- <a href="#" class="button">Learn More</a> -->
+                        </div>
+    
+                        
+                    </div>
+                </section>
+
+
+
+             <!-- ==========Sponsors============ -->
+
+             <section id="sponsors">
+                <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+                
+                
+                <div class="container">
+                  <h1>Our  Partners</h1>
+                   <section class="customer-logos slider">
+                      <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
+                      <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+                      <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+                      <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
+                      <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+                      <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
+                      <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
+                      <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
+                   </section>
+                </div>
+             </section>
+
+
+            
+            <!--========== FOOTER (Socials) ==========-->
+            <section class="footer " id="contact_us">
+                <div class="footer__container bd-container bd-grid">
+                    <div class="footer__social">
+                        <h2 class="footer__title" style="color: white;" >Contact us at:</h2>
+                            <div class="footer__icons" >
+                                <a href="https://www.instagram.com/gdsc_igdtuw/" class="footer__logo" ><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/gdsc_igdtuw" class="footer__logo" ><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/dscigdtuw/mycompany/" class="footer__logo" ><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.youtube.com/c/DSCIGDTUW" class="footer__logo" ><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                    </div>
+
+                </div>
+                
             </section>
         </main>
 
+       
         
         <!--========== SCROLL REVEAL ==========-->
         <script src="https://unpkg.com/scrollreveal"></script>
 
         <!--========== MAIN JS ==========-->
         <script src="main.js"></script>
+        
+        <!-- Timeline.js -->
+        <script src="timeline.js"></script>
+
+        <!-- Sponsors -->
+        <script src="sponsors.js"></script>
     </body>
+
 </html>
