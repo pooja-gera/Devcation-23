@@ -1,309 +1,56 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
 
-        <!--========== BOX ICONS ==========-->
-        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="icon" type="image/png" href="./img/favicon_penguin.png">
-
-        <!--========== CSS ==========-->
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="./public/css/sponsor.css">
-
-        <title>Devcation 2022: Home</title>
-    </head>
-    <body>
-        <!--========== SCROLL TOP ==========-->
-        <a href="#" class="scrolltop" id="scroll-top">
-            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
-        </a>
-        
-        <!--========== HEADER ==========-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-container">
-                <a href="#home" class="nav__logo">Devcation 2022</a>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#about" class="nav__link active-link">About</a></li>
-                        <li class="nav__item"><a href="#theme" class="nav__link ">Theme</a></li>
-                        <li class="nav__item"><a href="#events" class="nav__link">Events</a></li>
-                        <li class="nav__item"><a href="#timeline" class="nav__link">Timeline</a></li>
-                        <li class="nav__item"><a href="#sponsors" class="nav__link">Sponsors</li>
-                        <li class="nav__item"><a href="./view/team.html" class="nav__link">Team</a></li> 
-                        <li class="nav__item"><a href="./view/comingsoon.html" class="nav__link">Projects</a></li>    
-                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-grid-alt'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--========== Welcome ==========-->
-            <section class="home" id="home">
-                <div class="home__container bd-container bd-grid">
-                    <div class="home__img">
-                        <img src="./img/party.png" alt="">
-                    </div>
-
-                    <div class="home__data">
-                        <h1 class="home__title">Welcome to Devcation'22</h1>
-                        <p class="home__description">Devcation is a week-long technical festival
-                          organized by GDSC IGDTUW. <br> A triathlon, which includes a
-                          designathon, ideathon, and hackathon along
-                          with various knowledge-imparting and
-                          recreational sessions.</p>
-                        
-                    </div>   
-                </div>
-            </section>
-
-            <!--========== About Devcation ==========-->
-            <section class="share section bd-container" id="about">
-                <div class="share__container bd-grid">
-                    <div class="share__data">
-                        <h2 class="section-title-center">About <br> Devcation 2022 &#127757; </h2>
-                        <p class="share__description">This event will act as a
-                          platform to attain knowledge and work on
-                          projects in real-time and gain mentorship from
-                          the experts. It will help beginners to kickstart
-                          their technical journey.</p>
-                        
-                    </div>
-
-                    <div class="share__img">
-                        <img src="./img/world.png" alt="">
-                    </div>
-                </div>
-            </section>
-
-            <!-- ================ About GDSC IGDTUW ================= -->
-
-            <section class="share section bd-container" id="learn_more">
-                <div class="share__container bd-grid">
-                    <div class="share__data">
-                        <img src="./img/GDSC.png" alt="">
-                    </div>
-                    <div class="share__img about__GDSC">
-                        <h2 class="section-title-center">About <br> GDSC IGDTUW &#127757; </h2>
-                        <p class="share__description">GDSC IGDTUW is a
-                          community interested in exploring new
-                          technology. Our club promotes various Google technologies and aims
-                          to help the students to nurture their passion for
-                          technology and build projects that positively
-                          impact the society.</p>
-                        
-                    </div>
-
-                    
-                </div>
-            </section>
-
-            <!-- =============Theme UN SDG============ -->
-
-            <section class="share section bd-container" id="theme">
-                <div class="share__container bd-grid">
-                    <div class="share__data">
-                        <h2 class="section-title-center">Theme &#x1F31F;</h2>
-                        <p class="share__description">The Sustainable Development Goals or Global Goals are a collection of 17 interlinked global goals designed to be a "blueprint to achieve a better and more sustainable future for all". The SDGs were set up in 2015 by the United Nations General Assembly and are intended to be achieved by the year 2030.</p>
-                        
-                    </div>
-
-                    <div class="share__img">
-                        <img src="./img/SDG.png" alt="">
-                    </div>
-                </div>
-            </section>
-
-
-
-            
-
-            
-
-            <!--========== CATEGORIES ==========-->
-            <section class="decoration section bd-container" id="events">
-                <h2 class="section-title">Events</h2>
-                <div class="decoration__container bd-grid">
-                    <div class="decoration__data">
-                        <img src="./img/Design.png" alt="" class="decoration__img" id="apple_render">
-                        <h3 class="decoration__title">Design 'n' Solve</h3> 
-                        <a href="#" class="button button-link">Details</a>
-                    </div>
-
-                    <div class="decoration__data">
-                        <img src="./img/Ideate.png" alt="" class="decoration__img" id="burger_render">
-                        <h3 class="decoration__title">Ideate 'n' Solve</h3>
-                        <a href="#" class="button button-link">Details</a>
-                    </div>
-
-                    <div class="decoration__data">
-                        <img src="./img/Hack.png" alt="" class="decoration__img" id="milk_render">
-                        <h3 class="decoration__title">Hack 'n' Solve</h3>
-                        <a href="#" class="button button-link">Details</a>
-                    </div>
-                </div>
-            </section>
-
-            <!-- =============Timeline============= -->
-
-                <div id="timeline"> 
-                    <section class="intro">
-                        <div class="container">
-                          <h1>Event Timeline </h1>
-                        </div>
-                      </section>
-                      
-                      <section class="timeline">
-                        <ul>
-                          <li>
-                            <div>
-                              <h1>04th March 2022</h1> <p>Opening Ceremony</p>
-                            </div>
-                          </li>
-                          <li>
-                            <div>
-                              <h1>05th March 2022</h1> <p>Design 'n' Solve</p>
-                            </div>
-                          </li>
-                          <li>
-                            <div>
-                              <h1>06th March 2022</h1> <p>Ideate 'n' Solve</p>
-                            </div>
-                          </li>
-                          <li>
-                            <div>
-                              <h1>07th March 2022 - 11th March 2022</h1> <p>Workshop and Fun Events</p>
-                            </div>
-                          </li>
-                          <li>
-                            <div>
-                              <h1>12th March 2022 - 13th March 2022</h1> <p>Hack 'n' Solve</p>
-                            </div>
-                          </li>
-                          <li>
-                            <div>
-                              <h1>14th March 2022</h1> <p>Results and Closing Ceremony</p>
-                            </div>
-                          </li>
-                          <!--<li>
-                            <div>
-                              <h1>1957</h1> <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
-                            </div>
-                          </li>
-                          <li>
-                            <div>
-                              <h1>1967</h1> <p>Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget porta faucibus, euismod quis ante.</p>
-                            </div>
-                          </li>
-                          <li>
-                            <div>
-                              <h1>1977</h1> <p>Vestibulum porttitor lorem sed pharetra dignissim. Nulla maximus, dui a tristique iaculis, quam dolor convallis enim, non dignissim ligula ipsum a turpis.</p>
-                            </div>
-                          </li>
-                          <li>
-                            <div>
-                              <h1>1985</h1> <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
-                            </div>
-                          </li>
-                          <li>
-                            <div>
-                              <h1>2000</h1> <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
-                            </div>
-                          </li>
-                          <li>
-                            <div>
-                              <h1>2005</h1> <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
-                            </div>
-                          </li>-->
-                        </ul>
-                      </section>
-                </div>
-
-                <!-- ==========Speakers========== -->
-
-                <section class="share section bd-container" id="speakers">
-                    <div class="share__container bd-grid">
-                        <div class="share__img">
-                            <img src="./img/Speaker.png" alt="">
-                        </div>
-                        <div class="share__data">
-                             <h2 class="section-title-center"> Meet our speakers </h2>
-
-                             <a href="./view/comingsoon.html" class="button">Here!</a>
-                            
-                            <!-- <a href="#" class="button">Learn More</a> -->
-                        </div>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
     
-                        
-                    </div>
-                </section>
+    <div id="container">
+      <div id="header">
+        <div id="monthDisplay"></div>
+        <div>
+          <button id="backButton">Back</button>
+          <button id="nextButton">Next</button>
+        </div>
+      </div>
 
+      <div id="weekdays">
+        <div>Sunday</div>
+        <div>Monday</div>
+        <div>Tuesday</div>
+        <div>Wednesday</div>
+        <div>Thursday</div>
+        <div>Friday</div>
+        <div>Saturday</div>
+      </div>
 
+      <div id="calendar"></div>
+    </div>
 
-             <!-- ==========Sponsors============ -->
+    <div id="newEventModal">
+      <h2>New Event</h2>
 
-             <section id="sponsors">
-                <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-                
-                
-                <div class="container">
-                  <h1>Our  Partners</h1>
-                   <section class="customer-logos slider">
-                      <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
-                      <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
-                      <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
-                      <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
-                      <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
-                      <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
-                      <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
-                      <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
-                   </section>
-                </div>
-             </section>
+      <input id="eventTitleInput" placeholder="Event Title" />
 
+      <button id="saveButton">Save</button>
+      <button id="cancelButton">Cancel</button>
+    </div>
 
-            
-            <!--========== FOOTER (Socials) ==========-->
-            <section class="footer " id="contact_us">
-                <div class="footer__container bd-container bd-grid">
-                    <div class="footer__social">
-                        <h2 class="footer__title" style="color: white;" >Contact us at:</h2>
-                            <div class="footer__icons" >
-                                <a href="https://www.instagram.com/gdsc_igdtuw/" class="footer__logo" ><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://twitter.com/gdsc_igdtuw" class="footer__logo" ><i class="fa-brands fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/company/dscigdtuw/mycompany/" class="footer__logo" ><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="https://www.youtube.com/c/DSCIGDTUW" class="footer__logo" ><i class="fa-brands fa-youtube"></i></a>
-                            </div>
-                    </div>
+    <div id="deleteEventModal">
+      <h2>Event</h2>
 
-                </div>
-                
-            </section>
-        </main>
+      <p id="eventText"></p>
 
-       
-        
-        <!--========== SCROLL REVEAL ==========-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+      <button id="deleteButton">Delete</button>
+      <button id="closeButton">Close</button>
+    </div>
 
-        <!--========== MAIN JS ==========-->
-        <script src="main.js"></script>
-        
-        <!-- Timeline.js -->
-        <script src="./public/js/timeline.js"></script>
+    <div id="modalBackDrop"></div>
 
-        <!-- Sponsors -->
-        <script src="./public/js/sponsors.js"></script>
-    </body>
-
+    <script src="./script.js"></script>
+  </body>
 </html>
