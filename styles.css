@@ -939,3 +939,6 @@ time {
   }
 }
 
+.rules_list{
+  list-style-type: disc;
+}
