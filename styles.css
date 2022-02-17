@@ -937,6 +937,14 @@ time {
     padding: var(--mb-2);
     margin: var(--mb-1);
   }
+
+  .devfolio-btn{
+    margin:auto;
+  }
+
+  .home__container{
+    margin-bottom:3.2vh;
+  }
 }
 
 .rules_list{
