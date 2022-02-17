@@ -927,7 +927,7 @@ time {
 
 .sponsor-container {
   margin: 5% 10%; 
-  width: 60%;
+/*   width: 60%; */
 }
 
 @media screen and (max-width: 576px) {
