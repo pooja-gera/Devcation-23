@@ -1064,7 +1064,7 @@ time {
   .sponsor-logo img{
     width: 45%;
     padding: var(--mb-2);
-    /* margin: var(--mb-1); */
+    margin: var(--mb-1);
   }
 
   .devfolio-btn{
