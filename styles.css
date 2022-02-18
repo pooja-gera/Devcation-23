@@ -1070,3 +1070,8 @@ time {
 .rules_list{
   list-style-type: disc;
 }
+
+
+.border{
+  border: 1px solid black;
+}
