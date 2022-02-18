@@ -1050,6 +1050,15 @@ time {
   margin-top:50px;
 }
 
+@media screen and (max-width: 1200px) {
+  .slick-slide{
+    padding: 1vh;
+    /* margin: 1vh; */
+    width: 50vw !important;
+    height: 18vw !important;
+  }  
+}
+
 @media screen and (max-width: 576px) {
 
   .sponsor-logo img{
