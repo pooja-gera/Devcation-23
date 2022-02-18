@@ -1,211 +1,228 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--========== BOX ICONS ==========-->
-        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="icon" type="image/png" href="./img/favicon_penguin.png">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--========== CSS ==========-->
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="./public/css/sponsor.css">
+  <!--========== BOX ICONS ==========-->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/png" href="./img/favicon_penguin.png">
 
-        <title>Devcation 2022: Home</title>
-        <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
-    </head>
-    <body>
-        <!--========== SCROLL TOP ==========-->
-        <a href="#" class="scrolltop" id="scroll-top">
-            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
-        </a>
-        
-        <!--========== HEADER ==========-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-container">
-                <a href="#home" class="nav__logo">Devcation 2022</a>
+  <!--========== CSS ==========-->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./public/css/sponsor.css">
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#about" class="nav__link ">About</a></li>
-                        <li class="nav__item"><a href="#theme" class="nav__link ">Theme</a></li>
-                        <li class="nav__item"><a href="#events" class="nav__link">Events</a></li>
-                        <li class="nav__item"><a href="#timeline" class="nav__link">Timeline</a></li>
-                        <li class="nav__item"><a href="#sponsors" class="nav__link">Sponsors</li>
-                        <li class="nav__item"><a href="./view/team.html" class="nav__link">Team</a></li> 
-                        <li class="nav__item"><a href="./view/comingsoon.html" class="nav__link">Projects</a></li>    
-                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
-                    </ul>
-                </div>
+  <title>Devcation 2022: Home</title>
+  <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+</head>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-grid-alt'></i>
-                </div>
-            </nav>
-        </header>
+<body>
+  <!--========== SCROLL TOP ==========-->
+  <a href="#" class="scrolltop" id="scroll-top">
+    <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+  </a>
 
-        <main class="l-main">
-            <!--========== Welcome ==========-->
-            <section class="home" id="home">
-                <div class="home__container bd-container bd-grid">
-                    <div class="home__img">
-                        <img src="./img/pingu.png" alt="">
-                    </div>
+  <!--========== HEADER ==========-->
+  <header class="l-header" id="header">
+    <nav class="nav bd-container">
+      <a href="#home" class="nav__logo">Devcation 2022</a>
 
-                    <div class="home__data">
-                        <h1 class="home__title">Welcome to Devcation'22</h1>
-                        <p class="home__description">Devcation is a week-long technical festival
-                          organized by GDSC IGDTUW. <br> A triathlon, which includes a
-                          designathon, ideathon, and hackathon along
-                          with various knowledge-imparting and
-                          recreational sessions.</p>
-                        
-                    </div>   
-                </div>
-            </section>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#about" class="nav__link ">About</a></li>
+          <li class="nav__item"><a href="#theme" class="nav__link ">Theme</a></li>
+          <li class="nav__item"><a href="#events" class="nav__link">Events</a></li>
+          <li class="nav__item"><a href="#timeline" class="nav__link">Timeline</a></li>
+          <li class="nav__item"><a href="#sponsors" class="nav__link">Sponsors</li>
+          <li class="nav__item"><a href="./view/team.html" class="nav__link">Team</a></li>
+          <li class="nav__item"><a href="./view/comingsoon.html" class="nav__link">Projects</a></li>
+          <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+        </ul>
+      </div>
 
-            <!--========== About Devcation ==========-->
-            <section class="share section bd-container" id="about">
-                <div class="share__container bd-grid">
-                    <div class="share__data">
-                        <h2 class="section-title-center">About <br> Devcation 2022 &#127757; </h2>
-                        <p class="share__description">This event will act as a
-                          platform to attain knowledge and work on
-                          projects in real-time and gain mentorship from
-                          the experts. It will help beginners to kickstart
-                          their technical journey.</p>
-                        
-                    </div>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-grid-alt'></i>
+      </div>
+    </nav>
+  </header>
 
-                    <div class="share__img">
-                        <img src="./img/world.png" alt="">
-                    </div>
-                </div>
-            </section>
+  <main class="l-main">
+    <!--========== Welcome ==========-->
+    <section class="home" id="home">
+      <div class="home__container bd-container bd-grid">
+        <div class="home__img">
+          <img src="./img/pingu.png" alt="">
+        </div>
 
-            <!-- ================ About GDSC IGDTUW ================= -->
+        <div class="home__data">
+          <h1 class="home__title">Welcome to Devcation'22</h1>
+          <p class="home__description">Devcation is a week-long technical festival
+            organized by GDSC IGDTUW. <br> A triathlon, which includes a
+            designathon, ideathon, and hackathon along
+            with various knowledge-imparting and
+            recreational sessions.</p>
 
-            <section class="share section bd-container" id="learn_more">
-                <div class="share__container bd-grid">
-                    <div class="share__data">
-                        <img src="./img/GDSC.png" alt="">
-                    </div>
-                    <div class="share__img about__GDSC">
-                        <h2 class="section-title-center">About <br> GDSC IGDTUW &#127757; </h2>
-                        <p class="share__description">GDSC IGDTUW is a
-                          community interested in exploring new
-                          technology. Our club promotes various Google technologies and aims
-                          to help the students to nurture their passion for
-                          technology and build projects that positively
-                          impact the society.</p>
-                        
-                    </div>
+        </div>
+      </div>
+    </section>
 
-                    
-                </div>
-            </section>
+    <!--========== About Devcation ==========-->
+    <section class="share section bd-container" id="about">
+      <div class="share__container bd-grid">
+        <div class="share__data">
+          <h2 class="section-title-center">About <br> Devcation 2022 &#127757; </h2>
+          <p class="share__description">This event will act as a
+            platform to attain knowledge and work on
+            projects in real-time and gain mentorship from
+            the experts. It will help beginners to kickstart
+            their technical journey.</p>
 
-            <!-- =============Theme UN SDG============ -->
+        </div>
 
-            <section class="share section bd-container" id="theme">
-                <div class="share__container bd-grid">
-                    <div class="share__data">
-                        <h2 class="section-title-center">Theme &#x1F31F;</h2>
-                        <p class="share__description">The Sustainable Development Goals or Global Goals are a collection of 17 interlinked global goals designed to be a "blueprint to achieve a better and more sustainable future for all". The SDGs were set up in 2015 by the United Nations General Assembly and are intended to be achieved by the year 2030.</p>
-                        
-                    </div>
+        <div class="share__img">
+          <img src="./img/world.png" alt="">
+        </div>
+      </div>
+    </section>
 
-                    <div class="share__img">
-                        <img src="./img/SDG.png" alt="">
-                    </div>
-                </div>
-            </section>
+    <!-- ================ About GDSC IGDTUW ================= -->
+
+    <section class="share section bd-container" id="learn_more">
+      <div class="share__container bd-grid">
+        <div class="share__data">
+          <img src="./img/GDSC.png" alt="">
+        </div>
+        <div class="share__img about__GDSC">
+          <h2 class="section-title-center">About <br> GDSC IGDTUW &#127757; </h2>
+          <p class="share__description">GDSC IGDTUW is a
+            community interested in exploring new
+            technology. Our club promotes various Google technologies and aims
+            to help the students to nurture their passion for
+            technology and build projects that positively
+            impact the society.</p>
+
+        </div>
 
 
+      </div>
+    </section>
 
-            
+    <!-- =============Theme UN SDG============ -->
 
-            
+    <section class="share section bd-container" id="theme">
+      <div class="share__container bd-grid">
+        <div class="share__data">
+          <h2 class="section-title-center">Theme &#x1F31F;</h2>
+          <p class="share__description">The Sustainable Development Goals or Global Goals are a collection of 17
+            interlinked global goals designed to be a "blueprint to achieve a better and more sustainable future for
+            all". The SDGs were set up in 2015 by the United Nations General Assembly and are intended to be achieved by
+            the year 2030.</p>
 
-            <!--========== CATEGORIES ==========-->
-            <section class="decoration section bd-container" id="events">
-                <h2 class="section-title">Events</h2>
-                <div class="decoration__container bd-grid">
-              
-                    <div class="decoration__data">
-                        <img src="./img/Design.png" alt="" class="decoration__img" id="apple_render">
-                        <h3 class="decoration__title">Design 'n' Solve</h3> 
-                        <!--<a href="./view/designsolve.html" class="button button-link">Details</a>-->
-                        <div class="button"><a href="./view/designsolve.html" class="button-link" style="color:white">Details</a></div>
-                        <div class="button"><a href="./view/comingsoon.html" class="button-link" style="color:white">Register</a></div>
-                    </div>
+        </div>
 
-                    <div class="decoration__data">
-                      <img src="./img/Ideate.png" alt="" class="decoration__img" id="burger_render">
-                      <h3 class="decoration__title">Ideate 'n' Solve</h3>
-                      <div class="button"><a href="./view/ideatesolve.html" class="button-link" style="color:white">Details</a></div>
-                      <div class="button"><a href="./view/comingsoon.html" class="button-link" style="color:white">Register</a></div>
-                  </div>
+        <div class="share__img">
+          <img src="./img/SDG.png" alt="">
+        </div>
+      </div>
+    </section>
 
-                    <div class="decoration__data">
-                        <img src="./img/Hack.png" alt="" class="decoration__img" id="milk_render">
-                        <h3 class="decoration__title">Hack 'n' Solve</h3>
-                        <div class="button"><a href="./view/hacksolve.html" class="button-link" style="color:white">Details</a></div>
-                        <div class="button"><a href="./view/hacksolve.html" class="button-link" style="color:white">Register</a></div>
-                        <!--<div 
+
+
+
+
+
+
+    <!--========== CATEGORIES ==========-->
+    <section class="decoration section bd-container" id="events">
+      <h2 class="section-title">Events</h2>
+      <div class="decoration__container bd-grid">
+
+        <div class="decoration__data">
+          <img src="./img/Design.png" alt="" class="decoration__img" id="apple_render">
+          <h3 class="decoration__title">Design 'n' Solve</h3>
+          <!--<a href="./view/designsolve.html" class="button button-link">Details</a>-->
+          <div class="button"><a href="./view/designsolve.html" class="button-link" style="color:white">Details</a>
+          </div>
+          <div class="button"><a href="./view/comingsoon.html" class="button-link" style="color:white">Register</a>
+          </div>
+        </div>
+
+        <div class="decoration__data">
+          <img src="./img/Ideate.png" alt="" class="decoration__img" id="burger_render">
+          <h3 class="decoration__title">Ideate 'n' Solve</h3>
+          <div class="button"><a href="./view/ideatesolve.html" class="button-link" style="color:white">Details</a>
+          </div>
+          <div class="button"><a href="./view/comingsoon.html" class="button-link" style="color:white">Register</a>
+          </div>
+        </div>
+
+        <div class="decoration__data">
+          <img src="./img/Hack.png" alt="" class="decoration__img" id="milk_render">
+          <h3 class="decoration__title">Hack 'n' Solve</h3>
+          <div class="button"><a href="./view/hacksolve.html" class="button-link" style="color:white">Details</a></div>
+          <div class="button"><a href="./view/hacksolve.html" class="button-link" style="color:white">Register</a></div>
+          <!--<div 
                           class="apply-button" 
                           data-hackathon-slug="hack-n-solve" 
                           data-button-theme="light"
                           style="height: 44px; width: 312px"
                         ></div>-->
-                    </div>
-                </div>
-            </section>
+        </div>
+      </div>
+    </section>
 
-            <!-- =============Timeline============= -->
+    <!-- =============Timeline============= -->
 
-                <div id="timeline"> 
-                    <section class="intro">
-                        <div class="container">
-                          <h1>Event Timeline </h1>
-                        </div>
-                      </section>
-                      
-                      <section class="timeline">
-                        <ul>
-                          <li>
-                            <div>
-                              <h1>04th March 2022</h1> <p>Opening Ceremony</p>
-                            </div>
-                          </li>
-                          <li>
-                            <div>
-                              <h1>05th March 2022</h1> <p>Design 'n' Solve</p>
-                            </div>
-                          </li>
-                          <li>
-                            <div>
-                              <h1>06th March 2022</h1> <p>Ideate 'n' Solve</p>
-                            </div>
-                          </li>
-                          <li>
-                            <div>
-                              <h1>07th March 2022 - 11th March 2022</h1> <p>Workshop and Fun Events</p>
-                            </div>
-                          </li>
-                          <li>
-                            <div>
-                              <h1>12th March 2022 - 13th March 2022</h1> <p>Hack 'n' Solve</p>
-                            </div>
-                          </li>
-                          <li>
-                            <div>
-                              <h1>14th March 2022</h1> <p>Results and Closing Ceremony</p>
-                            </div>
-                          </li>
-                          <!--<li>
+    <div id="timeline">
+      <section class="intro">
+        <div class="container">
+          <h1>Event Timeline </h1>
+        </div>
+      </section>
+
+      <section class="timeline">
+        <ul>
+          <li>
+            <div>
+              <h1>04th March 2022</h1>
+              <p>Opening Ceremony</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h1>05th March 2022</h1>
+              <p>Design 'n' Solve</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h1>06th March 2022</h1>
+              <p>Ideate 'n' Solve</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h1>07th March 2022 - 11th March 2022</h1>
+              <p>Workshop and Fun Events</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h1>12th March 2022 - 13th March 2022</h1>
+              <p>Hack 'n' Solve</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h1>14th March 2022</h1>
+              <p>Results and Closing Ceremony</p>
+            </div>
+          </li>
+          <!--<li>
                             <div>
                               <h1>1957</h1> <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
                             </div>
@@ -235,124 +252,132 @@
                               <h1>2005</h1> <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
                             </div>
                           </li>-->
-                        </ul>
-                      </section>
-                </div>
+        </ul>
+      </section>
+    </div>
 
-                <!-- ==========Speakers========== -->
+    <!-- ==========Speakers========== -->
 
-                <section class="share section bd-container" id="speakers">
-                    <div class="share__container bd-grid">
-                        <div class="share__img">
-                            <img src="./img/Speaker.png" alt="">
-                        </div>
-                        <div class="share__data">
-                             <h2 class="section-title-center"> Meet our speakers </h2>
+    <section class="share section bd-container" id="speakers">
+      <div class="share__container bd-grid">
+        <div class="share__img">
+          <img src="./img/Speaker.png" alt="">
+        </div>
+        <div class="share__data">
+          <h2 class="section-title-center"> Meet our speakers </h2>
 
-                             <a href="./view/comingsoon.html" class="button">Here!</a>
-                            
-                            <!-- <a href="#" class="button">Learn More</a> -->
-                        </div>
-    
-                        
-                    </div>
-                </section>
+          <a href="./view/comingsoon.html" class="button">Here!</a>
+
+          <!-- <a href="#" class="button">Learn More</a> -->
+        </div>
 
 
-
-             <!-- ==========Sponsors============ -->
-
-             <section id="sponsors" class="section ">
-
-                <div class="sponsor-container ">
-                  <h1 class="section-title">Title Sponsor ⚡</h1>
-                  <div class="sponsor-logo ">
-                    <a href="https://devfolio.co/"><img src="./img/Sponsor Logos/Title Sponsor/Devfolio_Logo-Colored.png" alt=""></a>
-                    <a href="https://polygon.com/"><img src="./img/Sponsor Logos/Title Sponsor/Polygon_Logo-Colored.png" alt=""></a>
-                  </div>
-
-                </div>
-
-                <div class="sponsor-container">
-                  <h1 class="section-title">Platinum Sponsor 💫</h1>
-                  <div class="sponsor-logo">
-                    <a href="https://celo.org/"><img src="img\Sponsor Logos\Platinum Sponsor\Celo Logo Color.png" alt=""></a>
-                    <a href="https://filecoin.io/"><img src="img\Sponsor Logos\Platinum Sponsor\Filecoin Coloured White Text.png" alt=""></a>
-                    <a href="https://tezos.com/"><img src="img\Sponsor Logos\Platinum Sponsor\Tezos_Logo-Colored.png" alt=""></a>
-                  </div>
-
-                </div>
-
-                <div class="sponsor-container">
-                  <h1 class="section-title">Gold Sponsor 🥇</h1>
-                  <div class="sponsor-logo">
-                    <a href="https://interviewcake.com/"><img src="img\Sponsor Logos\Gold Sponsor\interview-cake.png" alt=""></a>
-                    <a href="https://www.leadlearners.ca/"><img src="img\Sponsor Logos\Gold Sponsor\Leading_Learners_Logo.png" alt=""></a>
-                    <a href="https://taskade.com/"><img src="img\Sponsor Logos\Gold Sponsor\taskade-logo.png" alt=""></a>
-                    <a href="https://www.voiceflow.com/"><img src="img\Sponsor Logos\Gold Sponsor\Voiceflow_Logo.png" alt=""></a>
-                    <a href="https://interviewbuddy.in/"><img src="img\Sponsor Logos\Gold Sponsor\logo-of-interviewbuddy.png" alt=""></a>
-                  </div>
-
-                </div>
-
-                <div class="sponsor-container">
-                  <h1 class="section-title">Silver Sponsor 🥈</h1>
-                  <div class="sponsor-logo">
-                    <a href="https://rosenfeldmedia.com/"><img src="img\Sponsor Logos\Silver Sponsor\rosenfeld-logo.gif" alt=""></a>
-                  </div>
-
-                </div>
-
-                <div class="sponsor-container">
-                  <h1 class="section-title">Media and Streaming Sponsor 📽️</h1>
-                  <div class="sponsor-logo">
-                    <a href="https://streamyard.com/"><img src="img\Sponsor Logos\Streaming and Media Partner\logo.png" alt=""></a>
-                  </div>
-                </div>
-               
-                <div class="sponsor-container">
-                  <h1 class="section-title">Certificate Sponsor 📜</h1>
-                  <div class="sponsor-logo">
-                    <a href="https://givemycertificate.com/"><img src="img\Sponsor Logos\Certificate Partner\gmc_logo.png" alt=""></a>
-                  </div>
-
-                </div>
-                
-             </section>
+      </div>
+    </section>
 
 
-            
-            <!--========== FOOTER (Socials) ==========-->
-            <section class="footer " id="contact_us">
-                <div class="footer__container bd-container bd-grid">
-                    <div class="footer__social">
-                        <h2 class="footer__title" style="color: white;" >Contact us at:</h2>
-                            <div class="footer__icons" >
-                                <a href="https://www.instagram.com/gdsc_igdtuw/" class="footer__logo" ><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://twitter.com/gdsc_igdtuw" class="footer__logo" ><i class="fa-brands fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/company/dscigdtuw/mycompany/" class="footer__logo" ><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="https://www.youtube.com/c/DSCIGDTUW" class="footer__logo" ><i class="fa-brands fa-youtube"></i></a>
-                            </div>
-                    </div>
 
-                </div>
-                
-            </section>
-        </main>
+    <!-- ==========Sponsors============ -->
 
-       
-        
-        <!--========== SCROLL REVEAL ==========-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <section id="sponsors" class="section ">
+      <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+      <div class="sponsor-container ">
+        <h1 class="section-title">Title Sponsor ⚡</h1>
+        <section class="customer-logos slider">
+          <div class="slide"><a href="https://devfolio.co/"><img src="./img/Sponsor Logos/Title Sponsor/Devfolio_Logo-Colored.png" alt=""></a></div>
+          <div class="slide"><a href="https://polygon.com/"><img src="./img/Sponsor Logos/Title Sponsor/Polygon_Logo-Colored.png" alt=""></a></div>
+          <div class="slide"><a href="https://hoverrobotix.com/"><img src="./img/Sponsor Logos/Title Sponsor/HoverRobotix-logo.png" alt=""></a></div>
+          <div class="slide"><a href="https://mentro.tech/"><img src="./img/Sponsor Logos/Title Sponsor/mentro_metaimg.png" alt=""></a></div>
+       </section>
+      </div>
 
-        <!--========== MAIN JS ==========-->
-        <script src="./main.js"></script>
-        
-        <!-- Timeline.js -->
-        <script src="./public/js/timeline.js"></script>
+      <div class="sponsor-container">
+        <h1 class="section-title">Platinum Sponsor 💫</h1>
+        <section class="customer-logos slider">
+          <div class="slide"><a href="https://tezos.com/"><img src="img\Sponsor Logos\Platinum Sponsor\Tezos_Logo-Colored.png" alt=""></a></div>
+          <div class="slide"><a href="https://filecoin.io/"><img src="img\Sponsor Logos\Platinum Sponsor\Filecoin Coloured White Text.png" alt=""></a></div>
+          <div class="slide"><a href="https://celo.org/"><img src="img\Sponsor Logos\Platinum Sponsor\Celo Logo Color.png" alt=""></a></div>
+          <div class="slide"><a href="https://geeksforgeeks.org/"><img src="img\Sponsor Logos\Platinum Sponsor\gfg-new-logo.png" alt=""></a></div>
+       </section>
+      </div>
 
-        <!-- Sponsors -->
-        <script src="./public/js/sponsors.js"></script>
-    </body>
+      <div class="sponsor-container">
+        <h1 class="section-title">Gold Sponsor 🥇</h1>
+        <section class="customer-logos slider">
+          <div class="slide"><a href="https://www.leadlearners.ca/"><img src="img\Sponsor Logos\Gold Sponsor\Leading_Learners_Logo.png" alt=""></a></div>
+          <div class="slide"><a href="https://www.voiceflow.com/"><img src="img\Sponsor Logos\Gold Sponsor\Voiceflow_Logo.png" alt=""></a></div>
+          <div class="slide"><a href="https://taskade.com/"><img src="img\Sponsor Logos\Gold Sponsor\taskade-logo.png" alt=""></a></div>
+          <div class="slide"><a href="https://interviewbuddy.in/"><img src="img\Sponsor Logos\Gold Sponsor\logo-of-interviewbuddy.png" alt=""></a></div>
+          <div class="slide"><a href="https://interviewcake.com/"><img src="img\Sponsor Logos\Gold Sponsor\interview-cake.png" alt=""></a></div>
+          <div class="slide"><a href="https://wolfram.com/"><img src="img\Sponsor Logos\Gold Sponsor\wolfram-language-text-logo.png" alt=""></a></div>
+          <div class="slide"><a href="https://gen.xyz/"><img src="img\Sponsor Logos\Gold Sponsor\xyz-logo-color.png" alt=""></a></div>
+       </section>
+      </div>
+
+      <div class="sponsor-container">
+        <h1 class="section-title">Silver Sponsor 🥈</h1>
+        <section class="customer-logos slider">
+          <div class="slide"><a href="https://www.echo3d.co/"><img src="img\Sponsor Logos\Silver Sponsor\echo3D - Logo 2021 - Background.png" alt=""></a></div>
+          <div class="slide"><a href="https://rosenfeldmedia.com/"><img src="img\Sponsor Logos\Silver Sponsor\rosenfeld-logo.gif" alt=""></a></div>
+          <div class="slide"><a href="https://artofproblemsolving.com/"><img src="img\Sponsor Logos\Silver Sponsor\AoPS_Main_Logo.png" alt=""></a></div>
+       </section>
+      </div>
+
+      <div class="sponsor-container">
+        <h1 class="section-title">Streaming and Media Partner 🎥</h1>
+        <div class="sponsor-logo">
+          <a href="https://streamyard.com/"><img src="img\Sponsor Logos\Streaming and Media Partner\streamyard-logo.png"
+              alt=""></a>
+        </div>
+      </div>
+
+      <div class="sponsor-container">
+        <h1 class="section-title">Certificate Partner 📜</h1>
+        <div class="sponsor-logo">
+          <a href="https://givemycertificate.com/"><img src="img\Sponsor Logos\Certificate Partner\gmc_logo.png"
+              alt=""></a>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!--========== FOOTER (Socials) ==========-->
+    <section class="footer " id="contact_us">
+      <div class="footer__container bd-container bd-grid">
+        <div class="footer__social">
+          <h2 class="footer__title" style="color: white;">Contact us at:</h2>
+          <div class="footer__icons">
+            <a href="https://www.instagram.com/gdsc_igdtuw/" class="footer__logo"><i
+                class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/gdsc_igdtuw" class="footer__logo"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/dscigdtuw/mycompany/" class="footer__logo"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com/c/DSCIGDTUW" class="footer__logo"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+
+
+
+  <!--========== SCROLL REVEAL ==========-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--========== MAIN JS ==========-->
+  <script src="./main.js"></script>
+
+  <!-- Timeline.js -->
+  <script src="./public/js/timeline.js"></script>
+
+  <!-- Sponsors -->
+  <script src="./public/js/sponsors.js"></script>
+</body>
 
 </html>
