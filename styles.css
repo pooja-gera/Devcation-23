@@ -147,7 +147,7 @@ img {
 
 .bd-grid {
   display: grid;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .l-header {
@@ -1084,4 +1084,10 @@ time {
 
 .border{
   border: 1px solid black;
+}
+
+.prizes_list{
+  list-style-type: disc;
+  text-align: start;
+  padding-left:2vw;
 }
