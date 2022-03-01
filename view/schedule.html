@@ -1,383 +1,259 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Schedule | Devcation 2022</title>
-    <link rel="stylesheet" href="tab.css">
-    <link rel="stylesheet" type="text/css" href="schedule.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--========== BOX ICONS ==========-->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/png" href="./img/favicon_penguin.png">
+
+  <!--========== CSS ==========-->
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../public/css/sponsor.css">
+
+  <title>Devcation 2022: Home</title>
+  <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
 </head>
+
 <body>
-<div class="faq">
-    <h3 class="faq-title">Hackathon Schedule</h3>
-    <div class="faq-wrapper">
-        <div class="scroll">
-        <ul class="faq-list-title">
-            <li class="faq-item active">
-                Day 1 (27th Feb)
-            </li>
-            <li class="faq-item">
-                Day 2 (28th Feb)
-            </li>
-            <li class="faq-item">
-                Day 3 (2nd March)
-            </li>
-            <li class="faq-item">
-                Day 4 (3rd March)
-            </li>
-            <li class="faq-item">
-                Day 5 (4th March)
-            </li>
-            <li class="faq-item">
-                Day 6 (5th March)
-            </li>
-            <li class="faq-item">
-                Day 7 (6th March)
-            </li>
-            <li class="faq-item">
-                Day 8 (7th March)
-            </li>
-            <li class="faq-item">
-                Day 9 (8th March)
-            </li>
-            <li class="faq-item">
-                Day 10 (9th March)
-            </li>
-            <li class="faq-item">
-                Day 11 (10th March)
-            </li>
-            <li class="faq-item">
-                Day 12 (11th March)
-            </li>
-            <li class="faq-item">
-                Day 13 (12th March)
-            </li>
-            <li class="faq-item">
-                Day 14 (13th March)
-            </li>
-            <li class="faq-item">
-                Day 15 (14th March)
-            </li>
+  <!--========== SCROLL TOP ==========-->
+  <a href="#" class="scrolltop" id="scroll-top">
+    <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+  </a>
+
+  <!--========== HEADER ==========-->
+  <header class="l-header" id="header">
+    <nav class="nav bd-container">
+        <a href="../index.html" class="nav__logo"><- Back to Home</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <!-- <li class="nav__item"><a href="#about" class="nav__link ">About</a></li>
+          <li class="nav__item"><a href="#theme" class="nav__link ">Theme</a></li>
+          <li class="nav__item"><a href="#events" class="nav__link">Events</a></li>
+          <li class="nav__item"><a href="#timeline" class="nav__link">Timeline</a></li>
+          <li class="nav__item"><a href="#sponsors" class="nav__link">Sponsors</li>
+          <li class="nav__item"><a href="./view/team.html" class="nav__link">Team</a></li>
+          <li class="nav__item"><a href="./view/comingsoon.html" class="nav__link">Projects</a></li>
+          <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li> -->
         </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-grid-alt'></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+
+    <!-- =============Timeline============= -->
+
+    <div id="timeline">
+      <section class="intro">
+        <div class="container" style="margin-top:2vh">
+          <h1>Devcation 2022 Schedule</h1>
         </div>
-        <div class="faq-answer-wrapper">
-            <div class="faq-answer">
-                <div class="faq-overlay"></div>
-                <div class="faq-elem active">
-                    <section class="timeline-section">
-                        <div class="timeline-items">
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">27th Feb 2022</div>
-                                <div class="timeline-content">
-                                    <h3>Registration Deadline for Designathon</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">27th Feb 2022</div>
-                                <div class="timeline-content">
-                                    <h3>Registration Deadline for Ideathon</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="faq-elem">
-                    <section class="timeline-section">
-                        <div class="timeline-items">
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">28th Feb 2022</div>
-                                <div class="timeline-content">
-                                    <h3>Sending out E-mails to Designathon participants</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">28th Feb 2022</div>
-                                <div class="timeline-content">
-                                    <h3>Sending out E-mails to Ideaathon participants</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="faq-elem">
-                    <section class="timeline-section">
-                        <div class="timeline-items">
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">4:00 pm to 7:00 pm</div>
-                                <div class="timeline-content">
-                                    <h3>Designathon Mentorship round 1</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">5:00 pm</div>
-                                <div class="timeline-content">
-                                    <h3>Ideathon round 1 submission</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="faq-elem">
-                    <section class="timeline-section">
-                        <div class="timeline-items">
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">00:00 am</div>
-                                <div class="timeline-content">
-                                    <h3>Announcement of Mini event 1 for designathon</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="faq-elem">
-                    <section class="timeline-section">
-                        <div class="timeline-items">
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">00:00 am</div>
-                                <div class="timeline-content">
-                                    <h3>Announcement of Mini event 2 for designathon</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">8:00 pm</div>
-                                <div class="timeline-content">
-                                    <h3>Opening ceremony</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="faq-elem">
-                    <section class="timeline-section">
-                        <div class="timeline-items">
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">12:00 pm</div>
-                                <div class="timeline-content">
-                                    <h3>Send e-mails to top 10 teams of Ideathon</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">6:00 pm to 7:00 pm</div>
-                                <div class="timeline-content">
-                                    <h3>Building beautiful user-friendly products(Workshop)</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">11:59 PM</div>
-                                <div class="timeline-content">
-                                    <h3>Designathon Final Submission</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="faq-elem">
-                    <section class="timeline-section">
-                        <div class="timeline-items">
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">04:00 PM to 06:30 PM</div>
-                                <div class="timeline-content">
-                                    <h3>Ideathon Live Presentation </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">07:00 PM</div>
-                                <div class="timeline-content">
-                                    <h3> Ideating a winning solution (Workshop)</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="faq-elem">
-                    <section class="timeline-section">
-                        <div class="timeline-items">
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">06:30 PM to 07:30 PM</div>
-                                <div class="timeline-content">
-                                    <h3>How to ace your hackathon pitch (Workshop)</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="faq-elem">
-                    <section class="timeline-section">
-                        <div class="timeline-items">
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">07:00 PM to 08:00 PM</div>
-                                <div class="timeline-content">
-                                    <h3>How to ace dev hackathons (Workshop)</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="faq-elem">
-                    <section class="timeline-section">
-                        <div class="timeline-items">
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">07:00 PM to 08:00 PM</div>
-                                <div class="timeline-content">
-                                    <h3>How to create a search application using Amazon Opensearch service, Lambda and API gateway (workshop)
-                                    </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="faq-elem">
-                    <section class="timeline-section">
-                        <div class="timeline-items">
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">07:00 PM to 08:00 PM</div>
-                                <div class="timeline-content">
-                                    <h3> Adding in-app AI voice assistant to your apps (workshop)</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="faq-elem">
-                    <section class="timeline-section">
-                        <div class="timeline-items">
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">06:00 PM to 07:00 PM</div>
-                                <div class="timeline-content">
-                                    <h3>Cloud Computing for your projects (workshop)</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="faq-elem">
-                    <section class="timeline-section">
-                        <div class="timeline-items">
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">12:00 AM</div>
-                                <div class="timeline-content">
-                                    <h3>Hackathon Starts </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">07:00 PM to 08:00 PM</div>
-                                <div class="timeline-content">
-                                    <h3>Roadmap to DSA (workshop)</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="faq-elem">
-                    <section class="timeline-section">
-                        <div class="timeline-items">
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">12:00 PM</div>
-                                <div class="timeline-content">
-                                    <h3>Hackathon ends</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">12:30-2:30 PM</div>
-                                <div class="timeline-content">
-                                    <h3>Hackathon pitch of all teams in front of mentors</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">4:00-6:30 PM</div>
-                                <div class="timeline-content">
-                                    <h3>Hackathon pitch of top 10 teams in front of judges</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="faq-elem">
-                    <section class="timeline-section">
-                        <div class="timeline-items">
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">14th March 2022</div>
-                                <div class="timeline-content">
-                                    <h3>TBD - Closing Ceremony</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                </div>
+      </section>
+
+      <section class="timeline">
+        <ul>
+          <li>
+            <div>
+              <h1 style="color:#ea4335">Design 'n' Solve - Mentorship Round 1</h1>
+              <p>04:00 PM to 07:00 PM</p>
+              <p>02nd March 2021</p>
             </div>
-    <title>Calendar</title>
+          </li>
+          <li>
+            <div>
+              <h1 style="color:#4285f4">Ideate 'n' Solve - Round 1 Submission</h1>
+              <p>05:00 PM onwards</p>
+              <p>02nd March 2021</p>
+            </div>
+          </li>
+          <li>
+            <div>
+                <h1 style="color:#ea4335">Design 'n' Solve - Mini Event 1</h1>
+                <p>00:00 AM - 11:59 PM</p>
+                <p>03rd March 2021</p>
+            </div>
+          </li>
+          <li>
+            <div>
+                <h1 style="color:#ea4335">Design 'n' Solve - Mini Event 2</h1>
+                <p>00:00 AM - 11:59 PM</p>
+                <p>04th March 2021</p>
+            </div>
+          </li>
+          <li>
+            <div>
+                <h1 style="color:#4285f4">Ideate 'n' Solve - Top 10 Teams Announcement</h1>
+                <p>12:00 PM</p>
+                <p>05th March 2021</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h1 style="color:#fbbc04">Workshop - Building Beautiful User Friendly Products</h1>
+              <p>By Vaishnavi Dwivedi</p>
+              <p>06:00 PM - 07:00 PM</p>
+              <p>05th March 2021</p>
+              <a href="https://dare2compete.com/workshop/building-beautiful-user-friendly-products-devcation-indira-gandhi-delhi-technical-university-for-women-igdtuw-d-266880">Register Here</a>
+            </div>
+          </li>
+          <li>
+            <div>
+                <h1 style="color:#ea4335">Design 'n' Solve - Final Submission</h1>
+                <p>11:59 PM</p>
+                <p>05th March 2021</p>
+            </div>
+          </li>
+          <li>
+            <div>
+                <h1 style="color:#4285f4">Ideate 'n' Solve - Live Presentation</h1>
+                <p>04:00 PM - 06:30 PM</p>
+                <p>06th March 2021</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h1 style="color:#fbbc04">Workshop - Ideating A Winning Solution</h1>
+              <p>By Tammana Khaitan, Harshita Rathee, Bhavika Sachedva, Nandini Agarwal</p>
+              <p>07:00 PM - 08:00 PM</p>
+              <p>06th March 2021</p>
+              <a href="https://dare2compete.com/workshop/ideating-a-winning-solution-devcation-indira-gandhi-delhi-technical-university-for-women-igdtuw-delhi-267215">Register Here</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h1 style="color:#fbbc04">Workshop - How To Ace Your Hackathon Pitch</h1>
+              <p>By Khalid</p>
+              <p>06:30 PM - 07:30 PM</p>
+              <p>07th March 2021</p>
+              <a href="https://dare2compete.com/workshop/how-to-ace-your-hackathon-pitch-devcation-indira-gandhi-delhi-technical-university-for-women-igdtuw-delhi-267982">Register Here</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h1 style="color:#fbbc04">Workshop - How To Ace Dev Hackathons</h1>
+              <p>By Kunika Malhotra</p>
+              <p>07:00 PM - 08:00 PM</p>
+              <p>08th March 2021</p>
+              <a href="https://dare2compete.com/workshop/how-to-ace-dev-hackathons-devcation-indira-gandhi-delhi-technical-university-for-women-igdtuw-delhi-268302">Register Here</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h1 style="color:#fbbc04">Workshop - How To Create A Search Application Using Amazon OpenSearch Service, Lamba & API Gateway</h1>
+              <p>By Avinash Koshal</p>
+              <p>07:00 PM - 08:00 PM</p>
+              <p>09th March 2021</p>
+              <a href="https://dare2compete.com/workshop/how-to-create-a-search-application-using-amazon-opensearch-service-lambda-and-api-gateway-devcation-indira-gand-268173">Register Here</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h1 style="color:#fbbc04">Workshop - Adding In-App AI Voice Assistant To Your Apps</h1>
+              <p>By Divyansh Chaurasia</p>
+              <p>07:00 PM - 08:00 PM</p>
+              <p>10th March 2021</p>
+              <a href="https://dare2compete.com/workshop/adding-in-app-ai-voice-assistant-to-your-apps-devcation-indira-gandhi-delhi-technical-university-for-women-igdt-269568">Register Here</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h1 style="color:#fbbc04">Workshop - Cloud Computing For Your Projects</h1>
+              <p>By Richa Agrawal</p>
+              <p>06:00 PM - 07:00 PM</p>
+              <p>11th March 2021</p>
+              <a href="https://dare2compete.com/workshop/cloud-computing-for-your-projects-devcation-indira-gandhi-delhi-technical-university-for-women-igdtuw-delhi-269579">Register Here</a>
+            </div>
+          </li>
+          <li>
+              <div>
+                  <h1 style="color:#34a853">Hack 'n' Solve Begins</h1>
+                  <p>00:00 AM onwards</p>
+                  <p>12th March 2021/p>
+              </div>
+          </li>
+          <li>
+            <div>
+              <h1 style="color:#fbbc04">Workshop - Roadmap To DSA</h1>
+              <p>By Kirti Gera</p>
+              <p>07:00 PM - 08:00 PM</p>
+              <p>12th March 2021</p>
+              <a href="https://dare2compete.com/workshop/roadmap-to-dsa-devcation-indira-gandhi-delhi-technical-university-for-women-igdtuw-delhi-269795">Register Here</a>
+            </div>
+          </li>
+          <li>
+            <div>
+                <h1 style="color:#34a853">Hack 'n' Solve - Final Submission</h1>
+                <p>12:00 PM</p>
+                <p>13th March 2021/p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h1 style="color:#34a853">Hack 'n' Solve - Pitch Round (All Teams)</h1>
+                <p>12:30 PM - 02:30 PM</p>
+                <p>13th March 2021/p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h1 style="color:#34a853">Hack 'n' Solve - Pitch Round (Top 10 Teams)</h1>
+                <p>04:00 PM - 06:30 PM</p>
+                <p>13th March 2021/p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h1>Closing Ceremony</h1>
+                <p>TBD</p>
+                <p>TBD</p>
+            </div>
+        </li>
 
-    <link rel="stylesheet" href="../public/css/schedule.css">
-  </head>
-  <body>
-    
-    <div id="container">
-      <div id="header">
-        <div id="monthDisplay"></div>
-        <div>
-          <button id="backButton">Back</button>
-          <button id="nextButton">Next</button>
+
+    <!--========== FOOTER (Socials) ==========-->
+    <section class="footer " id="contact_us">
+      <div class="footer__container bd-container bd-grid">
+        <div class="footer__social">
+          <h2 class="footer__title" style="color: white;">Contact us at:</h2>
+          <div class="footer__icons">
+            <a href="https://www.instagram.com/gdsc_igdtuw/" class="footer__logo"><i
+                class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/gdsc_igdtuw" class="footer__logo"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/dscigdtuw/mycompany/" class="footer__logo"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com/c/DSCIGDTUW" class="footer__logo"><i class="fa-brands fa-youtube"></i></a>
+          </div>
         </div>
-    </div>
-</div>
+
+      </div>
+
+    </section>
+  </main>
 
 
-<script src="schedule.js"></script>
+
+  <!--========== SCROLL REVEAL ==========-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--========== MAIN JS ==========-->
+  <script src="../main.js"></script>
+
+  <!-- Timeline.js -->
+  <script src="../public/js/timeline.js"></script>
+
+  <!-- Sponsors -->
+  <script src="../public/js/sponsors.js"></script>
 </body>
-</html>
-    <div id="modalBackDrop"></div>
 
-    <script src="../public/js/schedule.js"></script>
-  </body>
 </html>
