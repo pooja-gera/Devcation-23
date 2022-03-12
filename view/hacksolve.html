@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--========== BOX ICONS ==========-->
-        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link
+            href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'
+            rel='stylesheet'>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"/>
         <link rel="icon" type="image/png" href="./img/favicon_penguin.png">
 
         <!--========== CSS ==========-->
@@ -20,432 +27,488 @@
         <a href="#" class="scrolltop" id="scroll-top">
             <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
         </a>
-        
+
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
-                <a href="../index.html" class="nav__logo"><- Back to Home</a>
+                <a href="../index.html" class="nav__logo">
+                    <-
+                        Back
+                        to
+                        Home</a>
+                        <div class="nav__menu" id="nav-menu">
+                        <ul class="nav__list">
+                        <li class="nav__item">
+                        href="#home"
+                        class="nav__link active-link"<a >About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#rules" class="nav__link ">Rules</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#theme" class="nav__link">Theme</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#judges" class="nav__link">Judges</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#prizes" class="nav__link">Prizes</a>
+                </li>
+                <li>
+                    <i class='bx bx-toggle-left change-theme' id="theme-button"></i>
+                </li>
+            </ul>
+        </div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">About</a></li>
-                        <li class="nav__item"><a href="#rules" class="nav__link ">Rules</a></li>
-                        <li class="nav__item"><a href="#theme" class="nav__link">Theme</a></li>
-                        <li class="nav__item"><a href="#judges" class="nav__link">Judges</a></li>
-                        <li class="nav__item"><a href="#prizes" class="nav__link">Prizes</a></li> 
-                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-grid-alt'></i>
+        </div>
+    </nav>
+</header>
+
+<main class="l-main">
+    <!--========== Welcome ==========-->
+    <section class="home" id="home">
+        <div class="home__container bd-container bd-grid">
+            <div class="home__img">
+                <img src="../img/Hack.png" alt="">
+            </div>
+
+            <div class="home__data">
+                <h1 class="home__title">Hack 'N' Solve</h1>
+                <p class="home__description">Hack'n'Solve, the third and final part of the
+                    triathlon, is a 36 Hours Virtual Hackathon where we aim to promote Hackers and
+                    help them nurture their new ideas and prototypes to solve one or more of the 17
+                    sustainable development goals by the United Nations.
+                </p>
+                <div
+                    class="apply-button devfolio-btn"
+                    data-hackathon-slug="hack-n-solve"
+                    data-button-theme="light"
+                    style="height: 44px; width: 312px">
+                    <iframe
+                        src="https://apply.devfolio.co/v2/button?hackathonSlug=hack-n-solve&amp;buttonTheme=light"
+                        title="Apply with Devfolio"
+                        class="devfolio-button-iframe"
+                        sandbox="allow-scripts allow-same-origin allow-top-navigation allow-top-navigation-by-user-activation"
+                        style="padding: 0px; border: 0px; margin: 0px; height: 44px; width: 312px;"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--========== RULES AND REGULATIONS ==========-->
+    <section class="send section" id="rules">
+        <div class="send__container bd-container bd-grid">
+            <div class="send__content">
+                <h2 class="section-title-center send__title">Rules &#x1F527;</h2>
+                <p class="send__description">
+                    <ul class="rules_list">
+                        <li>There will be 2 to 4 people in one team.</li>
+                        <li>The theme for the event will be the UN's 17 Sustainable Development Goals.</li>
+                        <li>Deadline to Register: 11th March 2022</li>
+                        <li>Round 1 will end at 12:00pm on 13th March 2022</li>
+                        <li>10 shortlisted teams will be invited to give a live demonstration in front
+                            of the judges later in the evening on 13th March 2022.</li>
+                        <li>Judging Criteria will be theme, presentation, usage of Google technologies,
+                            aesthetic, completeness, accuracy, user experience and creativity.</li>
                     </ul>
-                </div>
+                </p>
+            </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-grid-alt'></i>
-                </div>
-            </nav>
-        </header>
+            <div class="send__img">
+                <img src="../img/aram.png" alt="">
+            </div>
+        </div>
+    </section>
 
-        <main class="l-main">
-            <!--========== Welcome ==========-->
-            <section class="home" id="home">
-                <div class="home__container bd-container bd-grid">
-                    <div class="home__img">
-                        <img src="../img/Hack.png" alt="">
-                    </div>
+    <!-- =============Theme UN SDG============ -->
 
-                    <div class="home__data">
-                        <h1 class="home__title">Hack 'N' Solve</h1>
-                        <p class="home__description">Hack'n'Solve, the third and final part of the triathlon, is a 36 Hours Virtual Hackathon where we aim to promote Hackers and help them nurture their new ideas and prototypes to solve one or more of the 17 sustainable development goals by the United Nations. </p>
-                        <div 
-                          class="apply-button devfolio-btn" 
-                          data-hackathon-slug="hack-n-solve" 
-                          data-button-theme="light"
-                          style="height: 44px; width: 312px"
-                        ><iframe src="https://apply.devfolio.co/v2/button?hackathonSlug=hack-n-solve&amp;buttonTheme=light" title="Apply with Devfolio" class="devfolio-button-iframe" sandbox="allow-scripts allow-same-origin allow-top-navigation allow-top-navigation-by-user-activation" style="padding: 0px; border: 0px; margin: 0px; height: 44px; width: 312px;"></iframe></div>
-                    </div>   
-                </div>
-            </section>
+    <section class="share section bd-container" id="theme">
+        <div class="share__container bd-grid">
+            <div class="share__data">
+                <h2 class="section-title-center">Theme &#x1F31F;</h2>
+                <p class="share__description">The Sustainable Development Goals or Global Goals
+                    are a collection of 17 interlinked global goals designed to be a "blueprint to
+                    achieve a better and more sustainable future for all". The SDGs were set up in
+                    2015 by the United Nations General Assembly and are intended to be achieved by
+                    the year 2030.</p>
 
-            <!--========== RULES AND REGULATIONS ==========-->
-            <section class="send section" id="rules">
-                <div class="send__container bd-container bd-grid">
-                    <div class="send__content">
-                        <h2 class="section-title-center send__title">Rules &#x1F527;</h2>
-                        <p class="send__description">
-                            <ul class="rules_list">
-                                <li>There will be 2 to 4 people in one team.</li>
-                                <li>The theme for the event will be the UN's 17 Sustainable Development Goals.</li>
-                                <li>Deadline to Register: 11th March 2022</li>
-                                <li>Round 1 will end at 12:00pm on 13th March 2022</li>
-                                <li>10 shortlisted teams will be invited to give a live demonstration in front of the judges later in the evening on 13th March 2022.</li>
-                                <li>Judging Criteria will be theme, presentation, usage of Google technologies, aesthetic, completeness, accuracy, user experience and creativity.</li>
-                            </ul>
+            </div>
+
+            <div class="share__img">
+                <img src="../img/SDG.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--========== JUDGES ==========-->
+    <section class="decoration section bd-container" id="judges">
+        <h2 class="section-title">Judges</h2>
+        <div class="decoration__container bd-grid">
+            <div class="decoration__data">
+                <a href="https://www.linkedin.com/in/divij-bajaj/" target="_blank"><img src="../img/Judges/Hackathon/9.png" alt="" class="decoration__img"></a>
+                <h3 class="decoration__title">Divij Bajaj</h3>
+                <p>Data Scientist at Microsoft</p>
+            </div>
+
+            <div class="decoration__data">
+                <a href="https://www.linkedin.com/in/kathita/" target="_blank"><img src="../img/Judges/Hackathon/13.png" alt="" class="decoration__img"></a>
+                <h3 class="decoration__title">Kathita Goel</h3>
+                <p>Senior Product Technology Manager, Google</p>
+            </div>
+
+            <div class="decoration__data">
+                <a href="https://www.linkedin.com/in/aanshul-sadaria-31069494/" target="_blank"><img src="../img/Judges/Hackathon/10.png" alt="" class="decoration__img"></a>
+                <h3 class="decoration__title">Aanshul Sadaria</h3>
+                <p>Software Engineer II at Google</p>
+            </div>
+
+            <div class="decoration__data">
+                <a href="https://in.linkedin.com/in/mouleeswark" target="_blank"><img src="../img/Judges/Hackathon/11.png" alt="" class="decoration__img"></a>
+                <h3 class="decoration__title">Mouleeswar Kothandaraman</h3>
+                <p>Software Architect at Cisco</p>
+            </div>
+
+            <div class="decoration__data">
+                <a href="https://www.linkedin.com/in/sonali-tyagi-92309798/" target="_blank"><img src="../img/Judges/Ideathon/8.png" alt="" class="decoration__img"></a>
+                <h3 class="decoration__title">Sonali Tyagi</h3>
+                <p>Network Security Consultant-III at Cisco</p>
+            </div>
+        </div>
+    </section>
+
+    <!--========== PRIZES ==========-->
+    <section class="decoration section bd-container" id="prizes">
+        <h2 class="section-title">Prizes</h2>
+        <div class="decoration__container bd-grid">
+            <div class="decoration__data">
+                <img src="../img/events/gold_trophy.png" alt="" class="decoration__img">
+                <h3 class="decoration__title">Winner</h3>
+                <p class="button button-link">
+                    <ul class="prizes_list">
+                        <li>7000 INR Cash Prize</li>
+                        <li>Gift vouchers from HoverRobotix Hoverboards India worth 10000/- INR</li>
+                        <li>Gift hampers from WrapCart</li>
+                        <li>Coupons worth 3000/- INR each for courses by Mentro</li>
+                        <li>$250 Digital Ocean Credits</li>
+                        <li>Company Lifetime Package by Clerky</li>
+                        <li>Geeks for Geeks 2000/- INR Coupon on all courses</li>
+                        <li>Leading Learners Expansion Packs (valued at $100USD each)</li>
+                        <li>Professional Licenses of Voiceflow PRO valued at $50/month per account.</li>
+                        <li>$25 worth of Wolfram | One access for free</li>
+                        <li>80% off discount coupons from WrapCart</li>
+                        <li>Online Mock Interviews from Interview Buddy</li>
+                        <li>Full access licenses to full coding interview prep course by Interview Cake</li>
+                        <li>Lifetime upgrades of Taskade</li>
+                        <li>1-month FREE access to all Business Plan features of echo3D</li>
+                        <li>20% discount code for Rosenfeld</li>
+                        <li>Free web hosting for 6 months from Cybrancee</li>
+                        <li>25% off for the first year of 1Password Families</li>
+                        <li>The Wolfram Award</li>
+                        <li>Internship opportunities</li>
+
+                    </ul>
+                </p>
+            </div>
+
+            <div class="decoration__data">
+                <img src="../img/events/silver_trophy.png" alt="" class="decoration__img">
+                <h3 class="decoration__title">1st Runner Up</h3>
+                <p class="button button-link">
+                    <ul class="prizes_list">
+                        <li>5000 INR Cash Prize</li>
+                        <li>Coupons worth 3000/- INR each for courses by Mentro</li>
+                        <li>$125 Digital Ocean Credits</li>
+                        <li>Geeks for Geeks 1200/- INR Coupon on all courses</li>
+                        <li>Professional Licenses of Voiceflow PRO valued at $50/month per account.</li>
+                        <li>$25 worth of Wolfram | One access for free</li>
+                        <li>80% off discount coupons from WrapCart</li>
+                        <li>Online Mock Interviews from Interview Buddy</li>
+                        <li>Full access licenses to full coding interview prep course by Interview Cake</li>
+                        <li>Lifetime upgrades of Taskade</li>
+                        <li>1-month FREE access to all Business Plan features of echo3D</li>
+                        <li>20% discount code for Rosenfeld</li>
+                        <li>Free web hosting for 6 months from Cybrancee</li>
+                        <li>25% off for the first year of 1Password Families</li>
+                        <li>The Wolfram Award</li>
+                        <li>Internship opportunities</li>
+
+                    </ul>
+                </p>
+            </div>
+
+            <div class="decoration__data">
+                <img src="../img/events/bronze_trophy.png" alt="" class="decoration__img">
+                <h3 class="decoration__title">2nd Runner Up</h3>
+                <p class="button button-link">
+                    <ul class="prizes_list">
+                        <li>3000 INR Cash Prize</li>
+                        <li>Coupons worth 3000/- INR each for courses by Mentro</li>
+                        <li>$100 Digital Ocean Credits</li>
+                        <li>Geeks for Geeks 800/- INR Coupon on all courses</li>
+                        <li>Professional Licenses of Voiceflow PRO valued at $50/month per account.</li>
+                        <li>$25 worth of Wolfram | One access for free</li>
+                        <li>80% off discount coupons from WrapCart</li>
+                        <li>Online Mock Interviews from Interview Buddy</li>
+                        <li>Full access licenses to full coding interview prep course by Interview Cake</li>
+                        <li>Lifetime upgrades of Taskade</li>
+                        <li>1-month FREE access to all Business Plan features of echo3D</li>
+                        <li>20% discount code for Rosenfeld</li>
+                        <li>Free web hosting for 6 months from Cybrancee</li>
+                        <li>25% off for the first year of 1Password Families</li>
+                        <li>The Wolfram Award</li>
+                        <li>Internship opportunities</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="decoration__data">
+                <img src="../img/events/top10_certificate.png" alt="" class="decoration__img">
+                <h3 class="decoration__title">Best Beginner Hack</h3>
+                <p class="button button-link">
+                    <ul class="prizes_list">
+                        <li>1000 INR Cash Prize</li>
+                        <li>Coupons worth 3000/- INR each for courses by Mentro</li>
+                        <li>$100 Digital Ocean Credits</li>
+                        <li>Geeks for Geeks 300/- INR Coupon on all courses</li>
+                        <li>Professional Licenses of Voiceflow PRO valued at $50/month per account.</li>
+                        <li>$25 worth of Wolfram | One access for free</li>
+                        <li>80% off discount coupons from WrapCart</li>
+                        <li>Online Mock Interviews from Interview Buddy</li>
+                        <li>Full access licenses to full coding interview prep course by Interview Cake</li>
+                        <li>Lifetime upgrades of Taskade</li>
+                        <li>1-month FREE access to all Business Plan features of echo3D</li>
+                        <li>20% discount code for Rosenfeld</li>
+                        <li>Free web hosting for 6 months from Cybrancee</li>
+                        <li>25% off the first year of 1Password Families</li>
+                        <li>The Wolfram Award</li>
+                        <li>Internship opportunities</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="decoration__data">
+                <img src="../img/events/top10_certificate.png" alt="" class="decoration__img">
+                <h3 class="decoration__title">Best All Boys Team</h3>
+                <p class="button button-link">
+                    <ul class="prizes_list">
+                        <li>1000 INR Cash Prize</li>
+                        <li>Coupons worth 3000/- INR each for courses by Mentro</li>
+                        <li>$100 Digital Ocean Credits</li>
+                        <li>Geeks for Geeks 300/- INR Coupon on all courses</li>
+                        <li>Professional Licenses of Voiceflow PRO valued at $50/month per account.</li>
+                        <li>$25 worth of Wolfram | One access for free</li>
+                        <li>80% off discount coupons from WrapCart</li>
+                        <li>Online Mock Interviews from Interview Buddy</li>
+                        <li>Full access licenses to full coding interview prep course by Interview Cake</li>
+                        <li>Lifetime upgrades of Taskade</li>
+                        <li>1-month FREE access to all Business Plan features of echo3D</li>
+                        <li>20% discount code for Rosenfeld</li>
+                        <li>Free web hosting for 6 months from Cybrancee</li>
+                        <li>25% off the first year of 1Password Families</li>
+                        <li>The Wolfram Award</li>
+                        <li>Internship opportunities</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="decoration__data">
+                <img src="../img/events/top10_certificate.png" alt="" class="decoration__img">
+                <h3 class="decoration__title">Best All Girls Team</h3>
+                <p class="button button-link">
+                    <ul class="prizes_list">
+                        <li>1000 INR Cash Prize</li>
+                        <li>Coupons worth 3000/- INR each for courses by Mentro</li>
+                        <li>$100 Digital Ocean Credits</li>
+                        <li>Geeks for Geeks 300/- INR Coupon on all courses</li>
+                        <li>Professional Licenses of Voiceflow PRO valued at $50/month per account.</li>
+                        <li>$25 worth of Wolfram | One access for free</li>
+                        <li>80% off discount coupons from WrapCart</li>
+                        <li>Online Mock Interviews from Interview Buddy</li>
+                        <li>Full access licenses to full coding interview prep course by Interview Cake</li>
+                        <li>Lifetime upgrades of Taskade</li>
+                        <li>1-month FREE access to all Business Plan features of echo3D</li>
+                        <li>20% discount code for Rosenfeld</li>
+                        <li>Free web hosting for 6 months from Cybrancee</li>
+                        <li>25% off the first year of 1Password Families</li>
+                        <li>The Wolfram Award</li>
+                        <li>Internship opportunities</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="decoration__data">
+                <img src="../img/events/sponsor_star.png" alt="" class="decoration__img">
+                <h3 class="decoration__title">Polygon Track Prize</h3>
+                <p class="button button-link">
+                    <ul class="prizes_list">
+                        <li>₹10,000 for the best hack built on Ethereum</li>
+                        <li>₹15,000 for the best hack built on Ethereum + Polygon</li>
+                        <li>Eligibility to apply for internship/full-time roles and seed funding of up
+                            to 5,000 USD for winners!</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="decoration__data">
+                <img src="../img/events/sponsor_star.png" alt="" class="decoration__img">
+                <h3 class="decoration__title">Tezos Track Prize</h3>
+                <p class="button button-link">
+                    <ul class="prizes_list">
+                        <li>₹20,000 for best Dapp built on Tezos</li>
+                        <li>Continuity grant opportunity up to $5,000 for outstanding projects</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="decoration__data">
+                <img src="../img/events/sponsor_star.png" alt="" class="decoration__img">
+                <h3 class="decoration__title">Celo Track Prize</h3>
+                <p class="button button-link">
+                    <ul class="prizes_list">
+                        <li>₹20,000 for best Dapp built on Celo</li>
+                        <li>Continuity Support</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="decoration__data">
+                <img src="../img/events/sponsor_star.png" alt="" class="decoration__img">
+                <h3 class="decoration__title">Filecoin Track Prize</h3>
+                <p class="button button-link">
+                    <ul class="prizes_list">
+                        <li>₹20000 for best use of IPFS and/or Filecoin</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="decoration__data">
+                <img
+                    src="../img/events/participation_certificate.png"
+                    alt=""
+                    class="decoration__img">
+                <h3 class="decoration__title">Participation</h3>
+                <p class="button button-link">
+                    <ul class="prizes_list">
+                        <li>Coupons worth 1000/- INR each for courses by Mentro</li>
+                        <li>$100 Digital Ocean Credits</li>
+                        <li>Geeks for Geeks 300/- INR Coupon on all courses</li>
+                        <li>Professional Licenses of Voiceflow PRO valued at $50/month per account.</li>
+                        <li>$25 worth of Wolfram | One access for free</li>
+                        <li>30% off discount coupons from WrapCart</li>
+                        <li>Interview Buddy discount vouchers</li>
+                        <li>Full access licenses to full coding interview prep course by Interview Cake</li>
+                        <li>5-Year free upgrades of Taskade</li>
+                        <li>1-month FREE access to all Business Plan features of echo3D</li>
+                        <li>20% discount code for Rosenfeld</li>
+                        <li>Free web hosting for 2 months from Cybrancee</li>
+                        <li>25% off the first year of 1Password Families</li>
+
+                    </ul>
+                </p>
+            </div>
+
+            <div class="decoration__data">
+                <img src="../img/events/sponsor_star.png" alt="" class="decoration__img">
+                <h3 class="decoration__title">Best Hack built using APIs</h3>
+                <p class="button button-link">
+                    <ul class="prizes_list">
+                        <li>Swag kits by Postman</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="decoration__data">
+                <img src="../img/events/sponsor_star.png" alt="" class="decoration__img">
+                <h3 class="decoration__title">Best Hack Built With AlanAI Integration</h3>
+                <p class="button button-link">
+                    <ul class="prizes_list">
+                        <li>5000/- INR to the best project with Alan AI integrated</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="decoration__data">
+                <img src="../img/events/sponsor_star.png" alt="" class="decoration__img">
+                <h3 class="decoration__title">Best Hack built with integration of Cudos - a
+                    high-performance Blockchain platform</h3>
+                <p class="button button-link">
+                    <ul class="prizes_list">
+                        <li>7000/- INR to the first winner</li>
+                        <li>5000/- INR to the second winner</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="decoration__data">
+                <img src="../img/events/sponsor_star.png" alt="" class="decoration__img">
+                <h3 class="decoration__title">symbl.ai Track Prize</h3>
+                <p class="button button-link">
+                    <ul class="prizes_list">
+                        <li>Best submissions will win exclusive Symbl.ai Developer Swag</li>
+                        <li>
+                            <b>Surprise Element</b>
+                            - the most innovative and creative submissions will be featured and its creators
+                            will earn a chance of becoming Symbl.ai Conversation Intelligence Ambassador.</li>
+                            <br>
+                        <p>Symbl.ai is a Conversational Intelligence (CI) platform for developers to
+                            build and extend applications capable of understanding natural human
+                            conversations at scale. Check the
+                            <a href="https://docs.symbl.ai/docs/" style="color:#006BC4">symbl.ai documentation</a>
+                            to check out all of their APIs</p>
+                          <p>Learn more about
+                            <a href="https://symbl.ai/" style="color:#006BC4">Symbl.ai</a>
                         </p>
-                    </div>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </section>
 
-                    <div class="send__img">
-                        <img src="../img/aram.png" alt="">
-                    </div>
+    <section class="decoration section bd-container"></section>
+
+    <!--========== FOOTER (Socials) ==========-->
+    <section class="footer " id="contact_us">
+        <div class="footer__container bd-container bd-grid">
+            <div class="footer__social">
+                <h2 class="footer__title" style="color: white;">Contact us at:</h2>
+                <div class="footer__icons">
+                    <a href="https://www.instagram.com/gdsc_igdtuw/" class="footer__logo">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/gdsc_igdtuw" class="footer__logo">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/company/dscigdtuw/mycompany/"
+                        class="footer__logo">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.youtube.com/c/DSCIGDTUW" class="footer__logo">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
                 </div>
-            </section>
+            </div>
 
-            <!-- =============Theme UN SDG============ -->
+        </div>
 
-            <section class="share section bd-container" id="theme">
-                <div class="share__container bd-grid">
-                    <div class="share__data">
-                        <h2 class="section-title-center">Theme &#x1F31F;</h2>
-                        <p class="share__description">The Sustainable Development Goals or Global Goals are a collection of 17 interlinked global goals designed to be a "blueprint to achieve a better and more sustainable future for all". The SDGs were set up in 2015 by the United Nations General Assembly and are intended to be achieved by the year 2030.</p>
-                        
-                    </div>
+    </section>
+</main>
 
-                    <div class="share__img">
-                        <img src="../img/SDG.png" alt="">
-                    </div>
-                </div>
-            </section>
+<!--========== SCROLL REVEAL ==========-->
+<script src="https://unpkg.com/scrollreveal"></script>
 
-        
-            <!--========== JUDGES ==========-->
-            <section class="decoration section bd-container" id="judges">
-                <h2 class="section-title">Judges</h2>
-                <div class="decoration__container bd-grid">
-                    <div class="decoration__data">
-                        <a href="https://www.linkedin.com/in/divij-bajaj/" target="_blank"><img src="../img/Judges/Hackathon/9.png" alt="" class="decoration__img"></a>
-                        <h3 class="decoration__title">Divij Bajaj</h3> 
-                        <p>Data Scientist at Microsoft</p>
-                    </div>
+<!--========== MAIN JS ==========-->
+<script src="../main.js"></script>
 
-                    <div class="decoration__data">
-                        <a href="https://www.linkedin.com/in/kathita/" target="_blank"><img src="../img/Judges/Hackathon/13.png" alt="" class="decoration__img"></a>
-                        <h3 class="decoration__title">Kathita Goel</h3>
-                        <p>Senior Product Technology Manager, Google</p>
-                    </div>
+<!-- Timeline.js -->
+<script src="../public/js/timeline.js"></script>
 
-                    <div class="decoration__data">
-                        <a href="https://www.linkedin.com/in/aanshul-sadaria-31069494/" target="_blank"><img src="../img/Judges/Hackathon/10.png" alt="" class="decoration__img"></a>
-                        <h3 class="decoration__title">Aanshul Sadaria</h3>
-                        <p>Software Engineer II at Google</p>
-                    </div>
+<!-- Sponsors -->
+<script src="../public/js/sponsors.js"></script>
 
-                    <div class="decoration__data">
-                        <a href="https://in.linkedin.com/in/mouleeswark" target="_blank"><img src="../img/Judges/Hackathon/11.png" alt="" class="decoration__img"></a>
-                        <h3 class="decoration__title">Mouleeswar Kothandaraman</h3>
-                        <p>Software Architect at Cisco</p>
-                    </div>
-
-                    <div class="decoration__data">
-                        <a href="https://www.linkedin.com/in/sonali-tyagi-92309798/" target="_blank"><img src="../img/Judges/Ideathon/8.png" alt="" class="decoration__img"></a>
-                        <h3 class="decoration__title">Sonali Tyagi</h3>
-                        <p>Network Security Consultant-III at Cisco</p>
-                    </div>
-                </div>
-            </section>
-
-            <!--========== PRIZES ==========-->
-            <section class="decoration section bd-container" id="prizes">
-                <h2 class="section-title">Prizes</h2>
-                <div class="decoration__container bd-grid">
-                    <div class="decoration__data">
-                        <img src="../img/events/gold_trophy.png" alt="" class="decoration__img">
-                        <h3 class="decoration__title">Winner</h3> 
-                        <p class="button button-link">
-                            <ul class="prizes_list">
-                                <li>7000 INR Cash Prize</li>
-<li>Gift vouchers from HoverRobotix Hoverboards India worth 10000/- INR</li>
-<li>Gift hampers from WrapCart</li>
-<li>Coupons worth 3000/- INR each for courses by Mentro</li>
-<li>$250 Digital Ocean Credits</li>
-<li>Company Lifetime Package by Clerky</li>
-<li>Geeks for Geeks 2000/- INR Coupon on all courses</li>
-<li>Leading Learners Expansion Packs (valued at $100USD each)</li>
-<li>Professional Licenses of Voiceflow PRO valued at $50/month per account.</li>
-<li>$25 worth of Wolfram | One access for free</li>
-<li>80% off discount coupons from WrapCart</li>
-<li>Online Mock Interviews from Interview Buddy</li>
-<li>Full access licenses to full coding interview prep course by Interview Cake</li>
-<li>Lifetime upgrades of Taskade</li>
-<li>1-month FREE access to all Business Plan features of echo3D</li>
-<li>20% discount code for Rosenfeld</li>
-<li>Free web hosting for 6 months from Cybrancee</li>
-<li>25% off for the first year of 1Password Families</li>
-<li>The Wolfram Award</li>
-<li>Internship opportunities</li>
-
-                            </ul>
-                        </p>
-                    </div>
-
-                    <div class="decoration__data">
-                        <img src="../img/events/silver_trophy.png" alt="" class="decoration__img">
-                        <h3 class="decoration__title">1st Runner Up</h3>
-                        <p class="button button-link">
-                            <ul class="prizes_list">
-<li>5000 INR Cash Prize</li>
-<li>Coupons worth 3000/- INR each for courses by Mentro</li>
-<li>$125 Digital Ocean Credits</li>
-<li>Geeks for Geeks 1200/- INR Coupon on all courses</li>
-<li>Professional Licenses of Voiceflow PRO valued at $50/month per account.</li>
-<li>$25 worth of Wolfram | One access for free</li>
-<li>80% off discount coupons from WrapCart</li>
-<li>Online Mock Interviews from Interview Buddy</li>
-<li>Full access licenses to full coding interview prep course by Interview Cake</li>
-<li>Lifetime upgrades of Taskade</li>
-<li>1-month FREE access to all Business Plan features of echo3D</li>
-<li>20% discount code for Rosenfeld</li>
-<li>Free web hosting for 6 months from Cybrancee</li>
-<li>25% off for the first year of 1Password Families</li>
-<li>The Wolfram Award</li>
-<li>Internship opportunities</li>
-
-                            </ul>
-                        </p>
-                    </div>
-
-                    <div class="decoration__data">
-                        <img src="../img/events/bronze_trophy.png" alt="" class="decoration__img">
-                        <h3 class="decoration__title">2nd Runner Up</h3>
-                        <p class="button button-link">
-                            <ul class="prizes_list">
-<li>3000 INR Cash Prize</li>
-<li>Coupons worth 3000/- INR each for courses by Mentro</li>
-<li>$100 Digital Ocean Credits</li>
-<li>Geeks for Geeks 800/- INR Coupon on all courses</li>
-<li>Professional Licenses of Voiceflow PRO valued at $50/month per account.</li>
-<li>$25 worth of Wolfram | One access for free</li>
-<li>80% off discount coupons from WrapCart</li>
-<li>Online Mock Interviews from Interview Buddy</li>
-<li>Full access licenses to full coding interview prep course by Interview Cake</li>
-<li>Lifetime upgrades of Taskade</li>
-<li>1-month FREE access to all Business Plan features of echo3D</li>
-<li>20% discount code for Rosenfeld</li>
-<li>Free web hosting for 6 months from Cybrancee</li>
-<li>25% off for the first year of 1Password Families</li>
-<li>The Wolfram Award</li>
-<li>Internship opportunities</li>
-                            </ul>
-                        </p>
-                    </div>
-
-                    
-                    <div class="decoration__data">
-                        <img src="../img/events/top10_certificate.png" alt="" class="decoration__img">
-                        <h3 class="decoration__title">Best Beginner Hack</h3> 
-                        <p class="button button-link">
-                            <ul class="prizes_list">
-                                <li>1000 INR Cash Prize</li>
-                                <li>Coupons worth 3000/- INR each for courses by Mentro</li>
-                                <li>$100 Digital Ocean Credits</li>
-                                <li>Geeks for Geeks 300/- INR Coupon on all courses</li>
-                                <li>Professional Licenses of Voiceflow PRO valued at $50/month per account.</li>
-                                <li>$25 worth of Wolfram | One access for free</li>
-                                <li>80% off discount coupons from WrapCart</li>
-                                <li>Online Mock Interviews from Interview Buddy</li>
-                                <li>Full access licenses to full coding interview prep course by Interview Cake</li>
-                                <li>Lifetime upgrades of Taskade</li>
-                                <li>1-month FREE access to all Business Plan features of echo3D</li>
-                                <li>20% discount code for Rosenfeld</li>
-                                <li>Free web hosting for 6 months from Cybrancee</li>
-                                <li>25% off the first year of 1Password Families</li>
-                                <li>The Wolfram Award</li>
-                                <li>Internship opportunities</li>                                
-                            </ul>
-                        </p>
-                    </div>
-
-                    <div class="decoration__data">
-                        <img src="../img/events/top10_certificate.png" alt="" class="decoration__img">
-                        <h3 class="decoration__title">Best All Boys Team</h3> 
-                        <p class="button button-link">
-                            <ul class="prizes_list">
-                                <li>1000 INR Cash Prize</li>
-                                <li>Coupons worth 3000/- INR each for courses by Mentro</li>
-                                <li>$100 Digital Ocean Credits</li>
-                                <li>Geeks for Geeks 300/- INR Coupon on all courses</li>
-                                <li>Professional Licenses of Voiceflow PRO valued at $50/month per account.</li>
-                                <li>$25 worth of Wolfram | One access for free</li>
-                                <li>80% off discount coupons from WrapCart</li>
-                                <li>Online Mock Interviews from Interview Buddy</li>
-                                <li>Full access licenses to full coding interview prep course by Interview Cake</li>
-                                <li>Lifetime upgrades of Taskade</li>
-                                <li>1-month FREE access to all Business Plan features of echo3D</li>
-                                <li>20% discount code for Rosenfeld</li>
-                                <li>Free web hosting for 6 months from Cybrancee</li>
-                                <li>25% off the first year of 1Password Families</li>
-                                <li>The Wolfram Award</li>
-                                <li>Internship opportunities</li>                                
-                            </ul>
-                        </p>
-                    </div>
-
-                    <div class="decoration__data">
-                        <img src="../img/events/top10_certificate.png" alt="" class="decoration__img">
-                        <h3 class="decoration__title">Best All Girls Team</h3> 
-                        <p class="button button-link">
-                            <ul class="prizes_list">
-                                <li>1000 INR Cash Prize</li>
-                                <li>Coupons worth 3000/- INR each for courses by Mentro</li>
-                                <li>$100 Digital Ocean Credits</li>
-                                <li>Geeks for Geeks 300/- INR Coupon on all courses</li>
-                                <li>Professional Licenses of Voiceflow PRO valued at $50/month per account.</li>
-                                <li>$25 worth of Wolfram | One access for free</li>
-                                <li>80% off discount coupons from WrapCart</li>
-                                <li>Online Mock Interviews from Interview Buddy</li>
-                                <li>Full access licenses to full coding interview prep course by Interview Cake</li>
-                                <li>Lifetime upgrades of Taskade</li>
-                                <li>1-month FREE access to all Business Plan features of echo3D</li>
-                                <li>20% discount code for Rosenfeld</li>
-                                <li>Free web hosting for 6 months from Cybrancee</li>
-                                <li>25% off the first year of 1Password Families</li>
-                                <li>The Wolfram Award</li>
-                                <li>Internship opportunities</li>                                
-                            </ul>
-                        </p>
-                    </div>
-        
-                            <div class="decoration__data">
-                                <img src="../img/events/sponsor_star.png" alt="" class="decoration__img" >
-                                <h3 class="decoration__title">Polygon Track Prize</h3>
-                                <p class="button button-link">
-                                    <ul class="prizes_list">
-<li>₹10,000 for the best hack built on Ethereum</li>
-<li>₹15,000 for the best hack built on Ethereum + Polygon</li>
-<li>Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners!</li>
-                                    </ul>
-                                </p>
-                            </div>
-
-                            <div class="decoration__data">
-                                <img src="../img/events/sponsor_star.png" alt="" class="decoration__img" >
-                                <h3 class="decoration__title">Tezos Track Prize</h3>
-                                <p class="button button-link">
-                                    <ul class="prizes_list">
-<li>₹20,000 for best Dapp built on Tezos</li>
-<li>Continuity grant opportunity up to $5,000 for outstanding projects</li>
-                                    </ul>
-                                </p>
-                            </div>
-
-                            <div class="decoration__data">
-                                <img src="../img/events/sponsor_star.png" alt="" class="decoration__img" >
-                                <h3 class="decoration__title">Celo Track Prize</h3>
-                                <p class="button button-link">
-                                    <ul class="prizes_list">
-<li>₹20,000 for best Dapp built on Celo</li>
-<li>Continuity Support</li>
-                                    </ul>
-                                </p>
-                            </div>
-
-                            <div class="decoration__data">
-                                <img src="../img/events/sponsor_star.png" alt="" class="decoration__img" >
-                                <h3 class="decoration__title">Filecoin Track Prize</h3>
-                                <p class="button button-link">
-                                    <ul class="prizes_list">
-<li>₹20000 for best use of IPFS and/or Filecoin</li>
-                                    </ul>
-                                </p>
-                            </div>
-        
-                            <div class="decoration__data">
-                                <img src="../img/events/participation_certificate.png" alt="" class="decoration__img">
-                                <h3 class="decoration__title">Participation</h3>
-                                <p class="button button-link">
-                                    <ul class="prizes_list">
-                                        <li>Coupons worth 1000/- INR each for courses by Mentro</li>
-                                        <li>$100 Digital Ocean Credits</li>
-<li>Geeks for Geeks 300/- INR Coupon on all courses</li>
-<li>Professional Licenses of Voiceflow PRO valued at $50/month per account.</li>
-<li>$25 worth of Wolfram | One access for free</li>
-<li>30% off discount coupons from WrapCart</li>
-<li>Interview Buddy discount vouchers</li>
-<li>Full access licenses to full coding interview prep course by Interview Cake</li>
-<li>5-Year free upgrades of Taskade</li>
-<li>1-month FREE access to all Business Plan features of echo3D</li>
-<li>20% discount code for Rosenfeld</li>
-<li>Free web hosting for 2 months from Cybrancee</li>
-<li>25% off the first year of 1Password Families</li>
-
-                                    </ul>
-                                </p>
-                            </div>
-
-                            <div class="decoration__data">
-                                <img src="../img/events/sponsor_star.png" alt="" class="decoration__img">
-                                <h3 class="decoration__title">Best Hack built using APIs</h3>
-                                <p class="button button-link">
-                                    <ul class="prizes_list">
-        <li>Swag kits by Postman</li>
-                                    </ul>
-                                </p>
-                            </div>
-                            
-                            <div class="decoration__data">
-                                <img src="../img/events/sponsor_star.png" alt="" class="decoration__img">
-                                <h3 class="decoration__title">Best Hack Built With AlanAI Integration</h3>
-                                <p class="button button-link">
-                                    <ul class="prizes_list">
-        <li>5000/- INR to the best project with Alan AI integrated</li>
-                                    </ul>
-                                </p>
-                            </div>
-                    
-                            <div class="decoration__data">
-                                <img src="../img/events/sponsor_star.png" alt="" class="decoration__img">
-                                <h3 class="decoration__title">Best Hack built with integration of Cudos - a high-performance Blockchain platform</h3>
-                                <p class="button button-link">
-                                    <ul class="prizes_list">
-        <li>7000/- INR to the first winner</li>
-        <li>5000/- INR to the second winner</li>
-                                    </ul>
-                                </p>
-                            </div>
-
-                            <div class="decoration__data">
-                                <img src="../img/events/sponsor_star.png" alt="" class="decoration__img" >
-                                <h3 class="decoration__title">symbl.ai Track Prize</h3>
-                                <p class="button button-link">
-                                    <ul class="prizes_list">
-<li>Symbl.ai swags for projects using symbl.ai </li>
-                                    </ul>
-                                </p>
-                            </div>
-                        </div>
-                </section>
-
-                <section class="decoration section bd-container">    
-                </section>
-
-            
-            <!--========== FOOTER (Socials) ==========-->
-            <section class="footer " id="contact_us">
-                <div class="footer__container bd-container bd-grid">
-                    <div class="footer__social">
-                        <h2 class="footer__title" style="color: white;" >Contact us at:</h2>
-                            <div class="footer__icons" >
-                                <a href="https://www.instagram.com/gdsc_igdtuw/" class="footer__logo" ><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://twitter.com/gdsc_igdtuw" class="footer__logo" ><i class="fa-brands fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/company/dscigdtuw/mycompany/" class="footer__logo" ><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="https://www.youtube.com/c/DSCIGDTUW" class="footer__logo" ><i class="fa-brands fa-youtube"></i></a>
-                            </div>
-                    </div>
-
-                </div>
-                
-            </section>
-        </main>
-        
-        <!--========== SCROLL REVEAL ==========-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-
-        <!--========== MAIN JS ==========-->
-        <script src="../main.js"></script>
-        
-        <!-- Timeline.js -->
-        <script src="../public/js/timeline.js"></script>
-
-        <!-- Sponsors -->
-        <script src="../public/js/sponsors.js"></script>
-
-        <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
-    </body>
+<script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+</body>
 
 </html>
